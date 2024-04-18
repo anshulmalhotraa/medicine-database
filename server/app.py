@@ -176,14 +176,10 @@ def add_to_queue():
     message_data = json.loads(body)
     
     sqs = boto3.client(
-        'sqs',
-        aws_access_key_id='',
-        aws_secret_access_key='',
-        aws_session_token='',
-        region_name='eu-west-1'
+        'sqs', region_name='eu-west-1'
     )
     
-    queue_url = 'https://sqs.eu-west-1.amazonaws.com/250738637992/medicine-queue'
+    queue_url = 'https://sqs.eu-west-1.amazonaws.com/250738637992/x23116889-Medicine'
     response = sqs.send_message(QueueUrl=queue_url,DelaySeconds=10, MessageBody=json.dumps(message_data))
     
     return {'messageid' : str(response['MessageId'])}
