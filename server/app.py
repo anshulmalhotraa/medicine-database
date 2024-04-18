@@ -187,7 +187,6 @@ def add_to_queue():
     response = sqs.send_message(QueueUrl=queue_url,DelaySeconds=10, MessageBody=json.dumps(message_data))
     
     return {'messageid' : str(response['MessageId'])}
-    #return {'messageid' : 'MessageId'}
 
 if __name__ == '__main__':
     create_medicine_table()
