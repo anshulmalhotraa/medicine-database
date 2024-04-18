@@ -8,8 +8,8 @@ const Testimonials = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div className="bg-gray-900 p-6 rounded-md shadow-md">
                         <blockquote className="text-gray-400">
-                            "I've been extremely satisfied with the service and quality of
-                            products from this company. Highly recommended!"
+                            &ldquo;I&apos;ve been extremely satisfied with the service and quality of
+                            products from this company. Highly recommended!&rdquo;
                         </blockquote>
                         <div className="mt-4 flex items-center">
                             <div className="flex-shrink-0">
