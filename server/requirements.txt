@@ -1,0 +1,5 @@
+Flask
+Flask-Cors
+gunicorn
+boto3
+thefuzz
