@@ -26,8 +26,8 @@ const Testimonials = () => {
                         </div>
                     </div><div className="bg-gray-900 p-6 rounded-md shadow-md">
                         <blockquote className="text-gray-400">
-                            "I've been extremely satisfied with the service and quality of
-                            products from this company. Highly recommended!"
+                            &ldquo;I&apos;ve been extremely satisfied with the service and quality of
+                            products from this company. Highly recommended!&rdquo;
                         </blockquote>
                         <div className="mt-4 flex items-center">
                             <div className="flex-shrink-0">
@@ -44,8 +44,8 @@ const Testimonials = () => {
                         </div>
                     </div><div className="bg-gray-900 p-6 rounded-md shadow-md">
                         <blockquote className="text-gray-400">
-                            "I've been extremely satisfied with the service and quality of
-                            products from this company. Highly recommended!"
+                            &ldquo;I&apos;ve been extremely satisfied with the service and quality of
+                            products from this company. Highly recommended!&rdquo;
                         </blockquote>
                         <div className="mt-4 flex items-center">
                             <div className="flex-shrink-0">
@@ -62,8 +62,8 @@ const Testimonials = () => {
                         </div>
                     </div><div className="bg-gray-900 p-6 rounded-md shadow-md">
                         <blockquote className="text-gray-400">
-                            "I've been extremely satisfied with the service and quality of
-                            products from this company. Highly recommended!"
+                            &ldquo;I&apos;ve been extremely satisfied with the service and quality of
+                            products from this company. Highly recommended!&rdquo;
                         </blockquote>
                         <div className="mt-4 flex items-center">
                             <div className="flex-shrink-0">
@@ -81,8 +81,8 @@ const Testimonials = () => {
                     </div>
                     <div className="bg-gray-900 p-6 rounded-md shadow-md">
                         <blockquote className="text-gray-400">
-                            "I've been extremely satisfied with the service and quality of
-                            products from this company. Highly recommended!"
+                            &ldquo;I&apos;ve been extremely satisfied with the service and quality of
+                            products from this company. Highly recommended!&rdquo;
                         </blockquote>
                         <div className="mt-4 flex items-center">
                             <div className="flex-shrink-0">
@@ -99,8 +99,8 @@ const Testimonials = () => {
                         </div>
                     </div><div className="bg-gray-900 p-6 rounded-md shadow-md">
                         <blockquote className="text-gray-400">
-                            "I've been extremely satisfied with the service and quality of
-                            products from this company. Highly recommended!"
+                            &ldquo;I&apos;ve been extremely satisfied with the service and quality of
+                            products from this company. Highly recommended!&rdquo;
                         </blockquote>
                         <div className="mt-4 flex items-center">
                             <div className="flex-shrink-0">
@@ -115,7 +115,8 @@ const Testimonials = () => {
                                 <p className="text-gray-400 text-sm">CEO, ABC Corp</p>
                             </div>
                         </div>
-                    </div>                </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
