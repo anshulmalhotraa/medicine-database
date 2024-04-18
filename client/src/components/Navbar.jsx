@@ -70,6 +70,13 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li>
+                        <Link href="/healthcare" >
+                            <p className="text-gray-800 dark:text-white hover:text-gray-600 dark:hover:text-gray-300">
+                                Healthcare
+                            </p>
+                        </Link>
+                    </li>
+                    <li>
                         <Link href="/contact">
                             <p className="text-gray-800 dark:text-white hover:text-gray-600 dark:hover:text-gray-300">
                                 Contact
