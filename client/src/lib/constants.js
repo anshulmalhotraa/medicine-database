@@ -1,3 +1,4 @@
-export const API_URL = "http://34.244.128.20:8000";
+export const API_URL =
+  "http://medicine-backend-alb-534686886.eu-west-1.elb.amazonaws.com";
 
 export const APP_NAME = "Medify";
